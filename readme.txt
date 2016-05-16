@@ -1,8 +1,20 @@
-# WTBI Background Updates Ignore Git
+=== Plugin Name ===
+Contributors: AronMS
+Donate link: 
+Tags: automaitc updates, background updates, updates, git, svn, developer
+Requires at least: 4.0
+Tested up to: 4.5.2
+Stable tag: 1.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+This plugin will fix the issue where WordPress prevents automatic background updates when it detects version control (.git or .svn) in the root WordPress directory.
+
+== Description ==
 
 If you find that WordPress automatic background updates are not working on your website, it may be because you have Version Control files in the root of your WordPress instillation. This plugin will fix the issue by setting WordPress to ignore version control files (.git or .svn) in the root  directory.
 
-##Usage
+= Usage =
 Before Installing this plugin we recommend you first try to investigate why automatic updates are not working on your site. The best way to do this is to install the [Background Update Tester](https://wordpress.org/plugins/background-update-tester/) plugin, which is built by the official WordPress.org team.
 
 Once you have installed and activated *Background Update Tester*, go to Dashboard → Update Tester.
@@ -24,4 +36,28 @@ If you see a screen which contains the the following go ahead and install our pl
 **This site is able to apply these updates automatically. Cool!**
 
 ^^That's better
+
+== Installation ==
+
+1. Upload the wtbi-auto-updates-ignore-git folder to the /wp-content/plugins/ directory
+1. Activate the WTBI Auto Updates Ignore Git plugin through the 'Plugins' screen in WordPress
+
+== Frequently Asked Questions ==
+
+= Will this plugin fix automatic background updates on my website? =
+
+Before Installing this plugin we recommend you first try to investigate why automatic updates are not working on your site. The best way to do this is to install the [Background Update Tester](https://wordpress.org/plugins/background-update-tester/) plugin, which is built by the official WordPress.org team. For more information on using this plugin checkout our [usage guide](https://wordpress.org/plugins/wtbi-background-updates-ignore-git/).
+
+
+== Screenshots ==
+
+== Changelog ==
+
+= 1.0 =
+* Initial Release
+
+== Upgrade Notice ==
+
+
+== Arbitrary section ==
 
