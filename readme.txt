@@ -1,10 +1,10 @@
 === Plugin Name ===
-Contributors: AronMS
+Contributors: AronMS, wotsthebigidea
 Donate link: 
-Tags: automaitc updates, background updates, updates, git, svn, developer
+Tags: automatic updates, background updates, updates, git, svn, developer
 Requires at least: 4.0
 Tested up to: 4.5.2
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -71,8 +71,10 @@ Before Installing this plugin we recommend you first try to investigate why auto
 
 = 1.0 =
 * Initial Release
+= 1.0.1 =
+* Fixed author link
+* Updated contributors
+* Added pot file to make translations easier
 
 == Upgrade Notice ==
 
-
-== Arbitrary section ==

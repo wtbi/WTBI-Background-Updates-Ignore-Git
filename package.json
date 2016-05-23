@@ -1,0 +1,25 @@
+{
+  "name": "wtbi-background-updates-ignore-git",
+  "version": "1.0.0",
+  "description": "WordPress plugin",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wtbi/WTBI-Background-Updates-Ignore-Git.git"
+  },
+  "author": "Wots the Big Idea",
+  "license": "GLP-3.0",
+  "bugs": {
+    "url": "https://github.com/wtbi/WTBI-Background-Updates-Ignore-Git/issues"
+  },
+  "homepage": "https://github.com/wtbi/WTBI-Background-Updates-Ignore-Git/#readme",
+  "devDependencies": {
+    "grunt-wp-i18n": "^0.5.4"
+  }
+}
